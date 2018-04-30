@@ -1,6 +1,8 @@
 # Delete-favorites-script---Google-Apps-Script
 
-Delete all favorite tweets (unfav) from your account, delete all favorite tweets (unfav) before the last X days.
+Delete favorite tweets (unfav) from your account, delete all favorite tweets (unfav) before the last X days.
+
+Twitter API only return the user’s most recent 3200 favorited tweets.
 
 [Google Apps Script has a limitation](https://developers.google.com/apps-script/guides/services/quotas) on the script runtime of 6 min, so it is advisable to schedule a script execution automatically every 15 minutes so as not to exceed the limits of the Twitter API requests. 
 
